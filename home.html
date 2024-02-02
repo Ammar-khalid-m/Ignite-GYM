@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- should put head icon here-->
+
+    <title>Ignite GYM - home</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <!-- the logo,    class logo to change some things in the logo in css-->
+        <a href="#" class="logo">
+            
+           
+        <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
+        <!-- might use later... <i class="ignite logo.png">GYM</i>-->
+        </a>
+         
+        <h1>THE BEST GYM!</h1>
+        
+        <!-- the links,   class navbar to change some things in css-->
+        <nav class="navbar">
+            <ul><b>
+                <li><a href="home.html"> |    الرئيسية </a> </li> 
+                <li><a href="locations.html"> |    الفروع </a> </li> 
+                <li><a href="offers.html"> |    عروض الإشتراك </a> </li> 
+               <!-- <li><a href="">Membership</a></li> -->
+                <li><a href="Contact.html"> |    للتواصل </a></li> 
+
+                <!--btn class for sign in button-->
+                <li><a href="subs.html" class="btn">    التسجيل </a></li>
+            </b>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main is generated with bard chatGPT-->
+    <main>
+        <section id="hero">
+            <!-- here we put image of the page-->
+            <img src="hero.jpg" alt="Fitness Time Gym hero image">
+            <div class="hero-text">
+                <br>
+                <br>
+                <h2>Reach Your Fitness Goals with Us</h2>
+                <p>We offer a variety of classes and programs to help you reach your fitness goals, no matter what your experience level.</p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Fitness Time Gym</h2>
+            <p>Fitness Time Gym is a state-of-the-art facility that provides a welcoming and supportive environment for people of all ages and fitness levels. We offer a wide range of classes and programs, as well as personal training and nutritional counseling. Our team of certified professionals is dedicated to helping you achieve your fitness goals.</p>
+        </section>
+        <section id="classes">
+            <h2>Our Classes</h2>
+            <div class="classes-container">
+                <div class="class">
+                    <h3>Strength Training</h3>
+                    <p>Our strength training classes will help you build muscle, burn fat, and improve your overall fitness.</p>
+                </div>
+                <div class="class">
+                    <h3>Cardio</h3>
+                    <p>Our cardio classes will get your heart rate up and help you burn calories.</p>
+                </div>
+                <div class="class">
+                    <h3>Yoga</h3>
+                    <p>Our yoga classes will help you improve your flexibility, strength, and balance.</p>
+                </div>
+            </div>
+        </section>
+        <section id="membership">
+            <h2>Join Our Gym Today!</h2>
+            <p>We offer a variety of membership options to fit your needs and budget.</p>
+            <a href="#" class="button">View Membership Options</a>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question? We're here to help!</p>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Fitness Time Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

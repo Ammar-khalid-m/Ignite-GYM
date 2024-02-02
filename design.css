@@ -1,0 +1,121 @@
+
+/* some general things*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: "poppins", sans-serif ;
+}
+
+/* the body under the header*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* .btn for (sign in) button*/
+.btn{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background-color: tomato;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* not used yet*/
+.btn:hover{
+background-color: rgba( 212, 48,48,0.76);
+transition: 0.4s;
+}
+
+
+/*header*/
+header {
+    position:relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #00000000;
+    padding: 1.5rem 2%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    
+}
+
+/* to apply some changes in logo, not sure that it's right */
+.header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+
+}
+
+/*also this not sure is right or going to be used */
+.header .logo i{
+    color: #fff;
+    padding: 0.5rem;
+}
+
+/* color of links*/
+a{
+    color: #4079eb;
+}
+
+/* for the links in the header (navagation bar)*/
+.header .navbar {
+font-size: 1.1rem;
+margin: 0 1rem;
+color: #fff;
+}
+
+/* for when touching a link it turns to this color */
+.header .navbar a:hover{
+    color: #baa6cf;
+}
+
+/* for border of bottun of (sign in)*/
+.header .btn{
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: 17px;
+    padding: 8px;
+}
+
+/* chatGPT generated*/
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* chatGPT */
+nav ul {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* chatGPT*/
+nav li {
+    display: inline-block;
+    margin-right: 20
+    color=#fff
+
+}
+
