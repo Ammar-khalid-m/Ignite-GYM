@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- should put head icon here-->
+    
+        <title>Ignite GYM - home</title>
+        <link rel="stylesheet" href="design.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+
+    <header class="header">
+        <!-- the logo,    class logo to change some things in the logo in css-->
+        <a href="#" class="logo">
+            
+           
+        <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
+        <!-- might use later... <i class="ignite logo.png">GYM</i>-->
+        </a>
+         
+       
+        
+        <!-- the links,   class navbar to change some things in css-->
+        <nav class="navbar">
+            <ul><b>
+                <li><a href="home.html"> |  Home </a> </li> 
+                <li><a href="locations.html"> |  Branches </a> </li> 
+                <li><a href="offers.html"> |  Subscription offers  </a> </li> 
+               <!-- <li><a href="">Membership</a></li> -->
+                <li><a href="Contact.html"> |  Contact us </a></li> 
+
+                <!--btn class for sign in button-->
+                <a href="subs.html" class="btn">    Sign in </a></li>
+                <li>
+            </b>
+            </ul>
+        
+    </header>
+   
+    <main>
+        
+        <section class="home">
+            <div class="max-width">
+                <div class = "home-content">
+                    <h3> Get started <br> And  Get stronger!</h3>
+                    <p> <h5>
+                        We Offer A Variety Of Membership Options To Fit Your Needs And Budget.
+                     Join Our Gym Today!</p></h5>
+                    <button class="btn"><a href="subs.html"  style="color: rgb(0, 0, 0);">Get started </a></button>
+                </div>
+            
+        
+
+       
+        </section>
+
+    </main>
+    
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone" pattern="^05(\d{8})$" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  
+    <footer>
+    <div class="footer-container">
+        <div class="social-icons"><h2>
+            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-facebook"></i></a>
+            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-x"></i></a>
+            <a  style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-snapchat"></i></a>
+            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-youtube"></i></a>
+            </h2>
+        </div>
+    </div>
+    <a class="mail" href="mailto:IgniteGYM@gmail.com">IgniteGYM@gmail.com</a>
+        <p>&copy; 2024 Ignite Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+<style>
+ 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin:0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 120px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 9px;
+      box-shadow: 0 0 800px rgb(0, 44, 187);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form input[type="tel"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 25px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+    
+    .contact-form textarea {
+        resize: none;
+      height: 130px;
+    }
+    
+    .contact-form button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+      background-color: #45a049;
+    }
+  </style>
