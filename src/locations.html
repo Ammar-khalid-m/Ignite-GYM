@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- should put head icon here-->
+
+    <title>Ignite GYM - home</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+    
+        .locations-container {
+            display: flex; /* Updated to flex container */
+            justify-content: space-around; /* Adjust as needed */
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .location {
+            margin-bottom: 20px;
+            margin-right: 10px; /* Add margin between locations */
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <header class="header">
+        <!-- the logo,    class logo to change some things in the logo in css-->
+        <a href="#" class="logo">
+            
+           
+        <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
+        <!-- might use later... <i class="ignite logo.png">GYM</i>-->
+        </a>
+         
+       <!-- <h1>THE BEST GYM!</h1>-->
+        
+        <!-- the links,   class navbar to change some things in css-->
+        <nav class="navbar">
+            <ul><b>
+                <li><a href="home.html"> |  Home </a> </li> 
+                <li><a href="locations.html"> |  Branches </a> </li> 
+                <li><a href="offers.html"> |  Subscription offers  </a> </li> 
+               <!-- <li><a href="">Membership</a></li> -->
+                <li><a href="Contact.html"> |  Contact us </a></li> 
+
+                <!--btn class for sign in button-->
+                <a href="subs.html" class="btn">    Sign in </a></li>
+                <li>
+            </b>
+            </ul>
+        
+    </header>
+    <main>
+        <!-- Locations Section -->
+       
+        <div class="locations-container">
+            
+             
+            <div class="location">
+                <a href="offers.html">
+                    <img src="loc1.png" alt="Al-Naseem" height="250" width="300">
+                    
+                </a>
+                
+            </div>
+    
+            <div class="location">
+                <a href="offers.html">
+                    <img src="loc2.png" alt="Al-sharai" height="250" width="300">
+                    
+                </a>
+            </div>
+    
+            <div class="location">
+                <a href="offers.html">
+                    <img src="loc3.png" alt="Hajj Street" height="250" width="300">
+                    
+                </a>
+                
+            </div>
+        
+        </div>
+        
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Ignite GYM. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
