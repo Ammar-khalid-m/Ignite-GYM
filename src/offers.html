@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- should put head icon here-->
+
+    <title>Ignite GYM - home</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <!-- the logo,    class logo to change some things in the logo in css-->
+        <a href="#" class="logo">
+            
+           
+        <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
+        <!-- might use later... <i class="ignite logo.png">GYM</i>-->
+        </a>
+         
+       <!-- <h1>THE BEST GYM!</h1>-->
+        
+        <!-- the links,   class navbar to change some things in css-->
+        <nav class="navbar">
+            <ul><b>
+                <li><a href="home.html"> |  Home </a> </li> 
+                <li><a href="locations.html"> |  Branches </a> </li> 
+                <li><a href="offers.html"> |  Subscription offers  </a> </li> 
+               <!-- <li><a href="">Membership</a></li> -->
+                <li><a href="Contact.html"> |  Contact us </a></li> 
+
+                <!--btn class for sign in button-->
+                <a href="subs.html" class="btn">    Sign in </a></li>
+                <li>
+            </b>
+            </ul>
+        
+    </header>
+
+
+    <main>
+
+      <section class="home">
+            <div class="max-width">
+                <div class = "home-content">
+                    <h3> Get started <br> And  Get stronger!</h3>
+                    <p> any paragraph to use</p>
+                    <button class="btn" href="subs.html"> Get started</button>
+                </div>
+            </div>
+        </section>
+
+      <section class="price-package" id="price">
+            <div class="container">
+                    <h2>Choose Your Package</h2>
+                    <div class="content">
+                            <div class="box wow bounceInUp">
+                                    <div class="inner">
+                                             <div class="price-tag">
+                                                     $59/Month
+                                             </div>
+                                             <div class="img">
+                                                    <img src="59.avif"  alt="price" />
+                                             </div>
+                                             <div class="text">
+                                                <h3>Body Building Training</h3>
+                                                     <p>Gym and Cardio</p>
+                                                     <p>Service Locker Rooms</p>
+                                                     <a href="subs.html" class="btn">Join Now</a>
+                                             </div>
+                                    </div>
+                            </div>
+                            <div class="box wow bounceInUp" data-wow-delay="0.2s">
+                                    <div class="inner">
+                                             <div class="price-tag">
+                                                     $69/Month
+                                             </div>
+                                             <div class="img">
+                                                    <img src="69.avif"  alt="price" />
+                                             </div>
+                                             <div class="text">
+                                                <h3>Body Building Training</h3>
+                                                     <p>Get Free WiFi</p>
+                                                     <p>No Time Restrictions</p>
+                                                     <p>Gym and Cardio</p>
+                                                     <p>Service Locker Rooms</p>
+                                                     <a href="subs.html" class="btn">Join Now</a>
+                                             </div>
+                                    </div>
+                            </div>
+                            <div class="box wow bounceInUp" data-wow-delay="0.4s">
+                                    <div class="inner">
+                                             <div class="price-tag">
+                                                     $99/Month
+                                             </div>
+                                             <div class="img">
+                                                    <img src="99.avif"  alt="price" />
+                                             </div>
+                                             <div class="text">
+                                                     <h3>Body Building Training</h3>
+                                                     <p>private coach </p>
+                                                     <p> special food plan</p>
+                                                     <p>Get Free WiFi</p>
+                                                     <p>No Time Restrictions</p>
+                                                     <p>Gym and Cardio</p>
+                                                     <p>Service Locker Rooms</p>
+                                                     <a href="subs.html" class="btn">Join Now</a>
+                                             </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+     </section>
+
+
+
+    </main>
+
+    <style>
+
+      .price-package {
+            padding: 80px 0px;
+            background-color: #000000;
+          }
+          .price-package h2 {
+            font-size: 30px;
+            font-weight: 500;
+            color: #ffffff;
+            padding: 0px 0px 20px;
+            text-align: center;
+          }
+          
+          .price-package .title-p {
+            font-size: 15px;
+            line-height: 20px;
+            color: #222222;
+            margin: 0;
+            text-align: center;
+            padding: 0 20% 50px;
+            font-family: "Open-sans", sans-serif;
+          }
+          
+          .price-package .content {
+            -webkit-display: flex;
+            display: flex;
+          }
+          .price-package .content .box {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+            padding: 15px;
+          }
+          .price-package .content .box .inner {
+            background-color: #000000;
+          }
+          .price-package .content .box .inner .price-tag {
+            padding: 15px;
+            font-size: 20px;
+            background-color: #446cee;
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .price-package .content .box .inner .text {
+            padding: 30px 15px;
+            text-align: center;
+          }
+          .price-package .content .box .inner .text h3 {
+            font-size: 24px;
+            color: #ffffff;
+            margin: 0;
+            padding: 0px 0px 20px;
+            font-weight: 700;
+          }
+          .price-package .content .box .inner .text p {
+            font-size: 15px;
+            line-height: 20px;
+            color: #ffffff;
+            margin: 0;
+            text-align: center;
+            padding: 0 0 5px;
+            font-family: "Open-sans", sans-serif;
+          }
+          .price-package .content .box .inner .text .btn {
+            padding: 8px 30px;
+            background-color: #446cee;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            border: 1px solid transparent;
+            cursor: pointer;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            margin-top: 10px;
+          }
+          .price-package .content .box .inner .text .btn:hover {
+            border-color: #222222;
+            color: #222222;
+            background-color: transparent;
+          }
+          .price-package .content .box .inner .img img {
+            width: 100%;
+          }
+    </style>
