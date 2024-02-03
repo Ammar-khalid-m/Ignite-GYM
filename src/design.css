@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=philosopher:wght@700&family=poppins:wght@300;400;500&display=swap');
 
 /* some general things*/
 *{
@@ -14,11 +15,12 @@
 
 /* the body under the header*/
 body {
-    font-family: sans-serif;
+    /*font-family: sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #000;
+    padding: 0;*/
     color: #fff;
+    background: #000000;
+    
 }
 
 /* .btn for (sign in) button*/
@@ -33,7 +35,7 @@ body {
     cursor: pointer;
 }
 
-/* not used yet*/
+/* in the button*/
 .btn:hover{
 background-color: rgba( 212, 48,48,0.76);
 transition: 0.4s;
@@ -41,13 +43,14 @@ transition: 0.4s;
 
 
 /*header*/
-header {
-    position:relative;
+.header{
+    position:fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #00000000;
+    align-items: center;
+    background: #000;
     padding: 1.5rem 2%;
     display: flex;
     color: #fff;
@@ -71,16 +74,17 @@ header {
     padding: 0.5rem;
 }
 
-/* color of links*/
+/* color of links
 a{
-    color: #4079eb;
+    color: #;
 }
+*/
 
 /* for the links in the header (navagation bar)*/
-.header .navbar {
+.header .navbar a{
 font-size: 1.1rem;
 margin: 0 1rem;
-color: #fff;
+color: #446cee;
 }
 
 /* for when touching a link it turns to this color */
@@ -89,12 +93,58 @@ color: #fff;
 }
 
 /* for border of bottun of (sign in)*/
-.header .btn{
+.header .navbar .btn{
     background: transparent;
     color: tomato;
     border: 1px solid tomato;
     font-size: 17px;
     padding: 8px;
+}
+
+/* home section*/
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+section{
+    padding: 50px 0 50px 0;
+}
+
+.home{
+    display: flex;
+
+}
+.home .max-width{
+    width: 100%;
+    display: flex;
+}
+.home .home-content{
+    width: 50%;
+    padding: 2rem;
+}
+
+.home h3{
+    color: #fff;
+    margin-top: 6rem;
+    font-size: 5rem;
+    font-family: 'Philosofer', sans-serif;
+}
+
+.home p{
+    color: rgp( 194, 191, 191);
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.home .home-image{
+    width: 50%;
+}
+
+.home .home-content img{
+width: 100%;
+height: 100%;
 }
 
 /* chatGPT generated*/
