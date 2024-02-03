@@ -11,6 +11,8 @@
     transition: 0.2s linear;
     text-transform: capitalize;
     font-family: "poppins", sans-serif ;
+    
+    
 }
 
 /* the body under the header*/
@@ -20,6 +22,8 @@ body {
     padding: 0;*/
     color: #fff;
     background: #000000;
+    
+    
     
 }
 
@@ -167,5 +171,21 @@ nav li {
     margin-right: 20
     color=#fff
 
+}
+
+footer{
+    /*background-color: #444954;*/
+    background-color: #525252;
+    color:#000000;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #b8b8b8;
+    
+}
+.mail {
+    color: #bebdbd;
 }
 
