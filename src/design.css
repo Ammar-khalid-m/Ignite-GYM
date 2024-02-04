@@ -196,5 +196,19 @@ footer{
     padding-bottom: 50px;
     border-radius: 5px;
     text-align: center;
-    align-items:center;
+    
+    
+    
+  }
+
+  .sign-in .form-group{
+    color: rgb(173, 175, 173);
+    
+  }
+  input{
+    align-items: left;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color:blue;
+    display: fixed;
   }
