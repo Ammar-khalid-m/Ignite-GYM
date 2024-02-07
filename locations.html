@@ -9,15 +9,29 @@
   <link rel="stylesheet" href="design.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <style>
+    /* Basic styles */
     body {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
       margin: 0;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      display: flex;
       justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 10px 20px;
     }
 
     .logo {
@@ -25,99 +39,101 @@
       align-items: center;
     }
 
-    .locations-container {
-      display: flex; /* Updated to flex container */
-      justify-content: space-around; /* Adjust as needed */
+    .logo img {
+      height: 60px;
+    }
+
+    nav {
+      display: flex;
       align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #ffc107;
+      color: #fff;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 30px 0;
+    }
+
+    h1 {
       text-align: center;
-      margin-top: 20px;
+    }
+
+    .locations-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; /* Wrap locations to next line if needed */
     }
 
     .location {
-      margin-bottom: 20px;
-      margin-right: 10px; /* Add margin between locations */
+      text-align: center;
+      margin: 20px;
+    }
+
+    .location img {
+      border-radius: 5px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     }
 
     .location-caption {
       font-size: 18px;
-      text-align: center;
       margin-top: 10px;
     }
-  </style>
 
-</head>
+    /* Footer styles */
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
 
-<body>
-  <header class="header">
-    <a href="#" class="logo">
+    .social-icons a {
+      color: #888;
+      font-size: 20px;
+      margin: 0 10px;
+    }
 
-      <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
-      </a>
+    .mail {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 
-    <nav class="navbar">
-      <ul><b>
-        <li><a href="index.html"> | Home </a></li>
-        <li><a href="locations.html"> | Branches </a></li>
-        <li><a href="offers.html"> | Subscription offers </a></li>
-        <li><a href="Contact.html"> | Contact us </a></li>
-
-        <a href="subs.html" class="btn"> Subscribe </a></li>
-        <li>
-        </b>
-      </ul>
-
-    </nav><br>
-  </header>
-  <main>
-    <br>1w2<br>
-    <p>
-      <h1 style="padding-top: 33px;">Branches</h1>
-    </p>
-    <div class="locations-container">
-
-
-      <div class="location">
-        <a href="offers.html">
-          <img src="loc1.jpeg" alt="Al-Naseem" height="250" width="300">
-        </a>
-        <p class="location-caption">النسيم</p>
-      </div>
-
-      <div class="location">
-        <a href="offers.html">
-          <img src="loc2.jpeg" alt="Al-sharai" height="250" width="300">
-        </a>
-        <p class="location-caption">الشرائع</p>
-      </div>
-
-      
-     </main>
-          <!-- Footer Section -->
-    <footer>
-    <div class="footer-container">
-        <div class="social-icons"><h2>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-facebook"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-instagram"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-x"></i></a>
-            <a  style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-snapchat"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-youtube"></i></a>
-            
-            </h2>
-        </div>
-    </div>
-    <a class="mail" href="mailto:IgniteGYM@gmail.com">IgniteGYM@gmail.com</a>
-        <p>&copy; 2024 Ignite Gym. All rights reserved.</p>
-
-        <!--javaScript 2-->
-        <div>
-            <script>
-              document.write("This page was last modified on: " + document.lastModified);
-            </script>
-
-          </div> 
-    </footer>
-
-</body>
-
-</html>
+    footer p {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+    }
+  </style
