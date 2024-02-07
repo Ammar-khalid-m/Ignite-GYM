@@ -6,159 +6,121 @@
   <link rel="icon" href="igniteLogo.ico" type="image/x-icon">
   <title>Ignite GYM - Sign In</title>
   <link rel="stylesheet" href="design.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body style="background-image: url(background\ gym.jpg);">
-
   <header class="header">
-        <!-- the logo,    class logo to change some things in the logo in css-->
-        <a href="#" class="logo">
-            
-           
-        <img src="ignite logo.png" alt="Ignite GYM logo" height="68" width="175">
-        <!-- might use later... <i class="ignite logo.png">GYM</i>-->
-        </a>
-         
-       
-        
-        <!-- the links,   class navbar to change some things in css-->
-        <nav class="navbar">
-            <ul><b>
-                <li><a href="index.html"> |  Home </a> </li> 
-                <li><a href="locations.html"> |  Branches </a> </li> 
-                <li><a href="offers.html"> |  Subscription offers  </a> </li> 
-               <!-- <li><a href="">Membership</a></li> -->
-                <li><a href="Contact.html"> |  Contact us </a></li> 
-
-                <!--btn class for Subscribe button-->
-                <a href="subs.html" class="btn">  Subscribe </a></li>
-                <li>
-            </b>
-            </ul>
-        
-    </header>
-
-    
-    
+    <!-- the logo,    class logo to change some things in the logo in css-->
+    <a href="#" class="logo"><img src="ignite%20logo.png" alt="Ignite GYM logo" height="68" width="175"> <!-- might use later... <i class="ignite logo.png">GYM</i>--></a> <!-- the links,   class navbar to change some things in css-->
+    <nav class="navbar">
+      <ul>
+        <li><b><a href="index.html">| Home</a></b></li>
+        <li><b><a href="locations.html">| Branches</a></b></li>
+        <li><b><a href="offers.html">| Subscription offers</a></b></li><!-- <li><a href="">Membership</a></li> -->
+        <li><b><a href="Contact.html">| Contact us</a></b></li><!--btn class for Subscribe button-->
+        <a href="subs.html" class="btn">Subscribe</a>
+      </ul>
+    </nav>
+  </header>
   <main>
-    
     <br>
     <br>
-    <br><br><br>
+    <br>
+    <br>
+    <br>
     <hr>
     <section class="sign-in">
-    <div class="max-width">
-        <h2 class="sign-in-heading">Join Us in IGNITE Gym</h2>
-        <br><br>
-        <form action="thankYouPage.html" method="post"> 
-            <div class="form-group">
-                <label for="firstName">First name:</label>
-                <input type="text" placeholder="First Name" id="firstName" name="firstName" required>
-            </div>
-            <br>
-
-            <div class="form-group">
-                <label for="lastName">Last name:</label>
-                <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
-            </div>
-            <br>
-
-            <div class="form-group">
-                <label for="phone">Phone number:</label>
-                <input type="tel" placeholder=" 05 ..." id="phone" name="phone" pattern="^05(\d{8})$" required>
-            </div>
-            <br>
-
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" placeholder="name@email.com" id="email" name="email" required>
-            </div>
-            <br>
-
-            <div class="form-group">
-                Select package: 
-                <select title="package" name="package">
-                    <option value="STANDARD">STANDARD</option>
-                    <option value="DELUXE">DELUXE</option>
-                    <option value="ULTIMATE GYM RAT">ULTIMATE GYM RAT</option>
-                </select>
-            </div>
-        </form>
-      <a href="thankYouPage.html">  
-      <button type="submit" class="btn">Subscribe</button>
-      </a>
-    </div>
-</section>
-
+      <div class="max-width">
+        <h2 class="sign-in-heading">Join Us in IGNITE Gym</h2><br>
+        <br>
+        <form action="thankYouPage.html" method="post">
+          <div class="form-group">
+            <label for="firstName">First name:</label> <input type="text" placeholder="First Name" id="firstName" name="firstName" required="">
+          </div><br>
+          <div class="form-group">
+            <label for="lastName">Last name:</label> <input type="text" placeholder="Last Name" id="lastName" name="lastName" required="">
+          </div><br>
+          <div class="form-group">
+            <label for="phone">Phone number:</label> <input type="tel" placeholder="05 ..." id="phone" name="phone" pattern="^05(\d{8})$" required="">
+          </div><br>
+          <div class="form-group">
+            <label for="email">Email:</label> <input type="email" placeholder="name@email.com" id="email" name="email" required="">
+          </div><br>
+          <div class="form-group">
+            Select package: <select title="package" name="package">
+              <option value="STANDARD">
+                STANDARD
+              </option>
+              <option value="DELUXE">
+                DELUXE
+              </option>
+              <option value="ULTIMATE GYM RAT">
+                ULTIMATE GYM RAT
+              </option>
+            </select>
+          </div>
+        </form><a href="thankYouPage.html"><button type="submit" class="btn">Subscribe</button></a>
+      </div>
+    </section>
   </main>
-
   <footer>
     <div class="footer-container">
-        <div class="social-icons"><h2>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-facebook"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-instagram"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-x"></i></a>
-            <a  style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-snapchat"></i></a>
-            <a style="color: rgb(188, 188, 188);" href=""><i class="fa-brands fa-youtube"></i></a>
-            
-            </h2>
-        </div>
-    </div>
-    <a class="mail" href="mailto:IgniteGYM@gmail.com">IgniteGYM@gmail.com</a>
-        <p>&copy; 2024 Ignite Gym. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+      <div class="social-icons">
+        <h2><a style="color: rgb(188, 188, 188);" href=""></a> <a style="color: rgb(188, 188, 188);" href=""></a> <a style="color: rgb(188, 188, 188);" href=""></a> <a style="color: rgb(188, 188, 188);" href=""></a> <a style="color: rgb(188, 188, 188);" href=""></a></h2>
+      </div>
+    </div><a class="mail" href="mailto:IgniteGYM@gmail.com">IgniteGYM@gmail.com</a>
+    <p>© 2024 Ignite Gym. All rights reserved.</p>
+  </footer>
+  <style>
 
-<style> 
-/* General styling */
-body
-.max-width {
+  /* General styling */
+  body
+  .max-width {
   max-width: 500px; /* Limit width for better readability */
   margin: 0 auto; /* Center the form */
   padding: 20px; /* Add some padding around the form elements */
   border-radius: 5px; /* Slightly rounded corners for a modern look */
   background-color: #000000; /* White background for contrast */
   box-shadow: 0px 2px 5px rgba(13, 3, 107, 0.15); /* Subtle shadow for depth */
-}
+  }
 
-.sign-in-heading {
+  .sign-in-heading {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
-}
+  }
 
-/* Form elements */
-label {
+  /* Form elements */
+  label {
   display: block; /* Display labels on separate lines */
   margin-bottom: 5px;
   font-weight: bold;
-}
+  }
 
-input,
-select {
+  input,
+  select {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
   margin-bottom: 10px;
   width: 100%; /* Ensure full width for better input experience */
   box-sizing: border-box; /* Include padding in width calculation */
-}
+  }
 
-input[type="submit"] {
+  input[type="submit"] {
   background-color: #801b1b; /* red background for the submit button */
   color: white;
   cursor: pointer;
-}
+  }
 
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
   .max-width {
     padding: 10px;
   }
-}
+  }
 
-</style>
+  </style>
+</body>
+</html>
