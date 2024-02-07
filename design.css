@@ -222,6 +222,16 @@ footer{
       0 0 30px rgb(17, 84, 255);
    /* animation: burning 1s linear infinite;*/
   }
+
+#burning-text2 {
+    
+    color: rgb(241, 241, 243);
+    font-weight:100;
+    text-shadow:
+      0 0 10px rgb(44, 56, 94),
+      0 0 20px rgb(30, 66, 106),
+      0 0 30px rgb(10, 50, 152);
+  }
   
   @keyframes burning {
     0% {
